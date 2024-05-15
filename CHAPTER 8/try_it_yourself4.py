@@ -8,3 +8,18 @@
 # 8-11. Archived Messages: Start with your work from Exercise 8-10. Call the function send_messages() 
 # with a copy of the list of messages. After calling the function, print both of your lists to show that the original 
 # list has retained its messages.
+
+def show_messages(listname):
+    for i in listname:
+        print(i)
+l1 = ["HI","HOW ARE YOU","HOPE YOU ARE FINE","BE THE CHAMPION"]
+def send_message(listname):
+    completed_list = []
+    for i in listname:
+        print(f"\n The {i} has been sent")
+        completed_list.append(i)
+    print(f"The completed list is {completed_list}")
+
+show_messages(l1)
+send_message(l1)
+print(f"the {l1}" )
