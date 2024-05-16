@@ -1,17 +1,15 @@
 from pathlib import Path
-
 path = Path('pi_digits.txt')
-if path.exists():
-    print("File exists")
-else:
-    print("File does not exist")
+contents = path.read_text()
+print(contents)   
 
 
+print(contents.rstrip()) # for removingextra balnk space
 
 
+contents2 = path.read_text().rstrip()
+print(contents2)
 
-
-# from pathlib import Path
-# path = Path('pi_digits.txt')
-# contents = path.read_text()
-# print(contents)
+asbpath = Path('C:/Users/CHROMIUM/Desktop/python_work/Python/CHAPTER 10/pi_digits.txt')
+contents3 = path.read_text()
+print(contents3)
