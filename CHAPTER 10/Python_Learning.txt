@@ -1,0 +1,4 @@
+In Python there are different type of datat types
+In Python we can understand it is a highr level language
+In Python there are many useful input libraries for the optimal use
+In Python we can create class with different method, and functions
